@@ -69,3 +69,6 @@ void Character::attack(Character c)
 	c.setHp(characterHP);
 
 }
+void Character::printStatus() {
+	cout << "A" << "le queda " << getHp() << " de vida."<< endl;
+}
