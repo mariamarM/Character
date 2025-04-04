@@ -70,5 +70,5 @@ void Character::attack(Character c)
 
 }
 void Character::printStatus() {
-	cout << "A" << "le queda " << getHp() << " de vida."<< endl;
+	cout << "A "<< getName()<<" le queda " << getHp() << " de vida."<< endl;
 }
